@@ -533,13 +533,13 @@ body {
   grid-template-columns: repeat(5, 200px);
   grid-template-rows: repeat(3, 200px);
   gap: 10px 10px;
-  grid-template-areas: "avila-panoramica avila-panoramica avila-panoramica avila-panoramica availa-galipan" "avila3 avila3 imagen-vertical avila5 avila5" "avila3 avila3 imagen-vertical avila6 avila6";
+  grid-template-areas: "avila-panoramica avila-panoramica avila-panoramica avila-panoramica avila2" "avila3 avila3 imagen-vertical avila5 avila5" "avila3 avila3 imagen-vertical avila6 avila6";
   justify-content: center;
   padding: 50px; }
 
 .avila-panoramica {
   grid-area: avila-panoramica;
-  background-image: url(https://patrick101995.github.io/proyecto/imagenes/el-avila.jpg);
+  background-image: url(https://patrick101995.github.io/proyecto/imagenes/Caribbean_Sea,_Avila_Mt,_Caracas_Panorama.jpg);
   background-position: 50% 40%;
   background-size: cover; }
 
@@ -548,6 +548,27 @@ body {
   background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
   background-size: cover;
   background-position: 60% 50%; }
+
+.avila5 {
+  grid-area: avila5;
+  background-image: url(https://patrick101995.github.io/proyecto/imagenes/avila2.jpg);
+  background-size: cover; }
+
+.imagen-vertical {
+  grid-area: imagen-vertical;
+  background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2.jpg);
+  background-size: cover;
+  background-position: 90%; }
+
+.avila2 {
+  grid-area: avila2;
+  background-image: url(https://patrick101995.github.io/proyecto/imagenes/avila5.jpg);
+  background-size: cover; }
+
+.avila6 {
+  grid-area: avila6;
+  background-image: url(https://patrick101995.github.io/proyecto/imagenes/galipan-alexander-sanchez.jpg);
+  background-size: cover; }
 
 /*Estilos de la galeria */
 /* Estilos del modal de la galeria */

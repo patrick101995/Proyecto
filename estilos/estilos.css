@@ -528,6 +528,27 @@ body {
   border-radius: 13px;
   transition: 0.5s; }
 
+.grid__galeria {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: repeat(3, 200px);
+  gap: 10px 10px;
+  grid-template-areas: "avila-panoramica avila-panoramica avila-panoramica avila-panoramica availa-galipan" "avila3 avila3 imagen-vertical avila5 avila5" "avila3 avila3 imagen-vertical avila6 avila6";
+  justify-content: center;
+  padding: 50px; }
+
+.avila-panoramica {
+  grid-area: avila-panoramica;
+  background-image: url(/imagenes/el-avila.jpg);
+  background-position: 50% 40%;
+  background-size: cover; }
+
+.avila3 {
+  grid-area: avila3;
+  background-image: url(/imagenes/Hotel_humnolt.jpg);
+  background-size: cover;
+  background-position: 60% 50%; }
+
 /*Estilos de la galeria */
 /* Estilos del modal de la galeria */
 .modal {

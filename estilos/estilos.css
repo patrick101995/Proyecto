@@ -539,13 +539,13 @@ body {
 
 .avila-panoramica {
   grid-area: avila-panoramica;
-  background-image: url(/imagenes/el-avila.jpg);
+  background-image: url(imagenes/el-avila.jpg);
   background-position: 50% 40%;
   background-size: cover; }
 
 .avila3 {
   grid-area: avila3;
-  background-image: url(/imagenes/Hotel_humnolt.jpg);
+  background-image: url(imagenes/Hotel_humnolt.jpg);
   background-size: cover;
   background-position: 60% 50%; }
 

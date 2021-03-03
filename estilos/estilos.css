@@ -7,7 +7,7 @@ body {
   font-family: 'roboto', sans-serif;
   width: 100%;
   height: 100%;
-  background-color: #e3d18a;
+  background-color: #85603f;
   font-size: 17px;
   font-weight: 500; }
 
@@ -32,7 +32,7 @@ body {
   display: inline-flex;
   flex-direction: column;
   bottom: 0;
-  background-color: #85603f;
+  background-color: #e3d18a;
   width: 100%; }
 
 .margin-0 {
@@ -129,7 +129,7 @@ body {
 /* Nav */
 .header__navegacion {
   width: 100%;
-  background-color: #85603f;
+  background-color: #e3d18a;
   font-size: 10px;
   font-weight: 200;
   font-family: 'paytone one', sans-serif; }
@@ -177,7 +177,7 @@ body {
   z-index: 5;
   padding: 0; }
   .header__navegacion__menu__sub-Menu li {
-    background-color: #85603f; }
+    background-color: #e3d18a; }
     .header__navegacion__menu__sub-Menu li a {
       display: flex;
       text-decoration: none;
@@ -258,12 +258,12 @@ body {
 /* Animacion pajaro index */
 /* index */
 .elParque {
-  background-color: #e3d18a; }
+  background-color: #85603f; }
 
 .container, .historia__container__imagenes {
   width: 100%;
   height: auto;
-  padding: 60px;
+  padding: 60px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -271,17 +271,14 @@ body {
   .container h3, .historia__container__imagenes h3 {
     font-size: 37px;
     font-weight: 400;
-    color: #85603f;
     text-align: center;
     padding-bottom: 30px;
     font-family: 'paytone one', sans-serif; }
   .container h4, .historia__container__imagenes h4 {
     font-size: 30px;
-    color: #85603f;
     text-align: center;
     padding-bottom: 25px; }
   .container p, .historia__container__imagenes p {
-    color: #85603f;
     text-align: center;
     font-size: 22px;
     line-height: 1,5;
@@ -303,22 +300,31 @@ body {
   padding-bottom: 3%; }
 
 .actividades {
-  background-color: #e3d18a; }
+  background-color: white;
+  color: #85603f; }
 
 .actividades__fila {
   display: flex;
   width: 100%;
   margin: 4% auto;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-between; }
 
 .actividades__fila__iconos {
   color: #85603f;
   font-size: 14em;
-  padding: 3%;
-  justify-content: center;
+  padding: 2%;
+  justify-content: space-between;
   display: flex;
-  text-decoration: none; }
+  text-decoration: none;
+  flex-direction: column;
+  text-align: center; }
+  .actividades__fila__iconos h6 {
+    padding: 20px;
+    font-size: 29px; }
+  .actividades__fila__iconos:hover {
+    color: white;
+    background-color: #85603f; }
 
 /* .grid-index{
     display: grid;
@@ -439,7 +445,7 @@ body {
   margin: auto;
   padding: 20px;
   box-shadow: 5px 5px 5px 5px #163125;
-  background-color: #85603f;
+  background-color: #e3d18a;
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -530,7 +536,7 @@ body {
 
 .grid__galeria {
   display: grid;
-  grid-template-columns: repeat(5, 200px);
+  grid-template-columns: repeat(5, 3fr);
   grid-template-rows: repeat(3, 200px);
   gap: 10px 10px;
   grid-template-areas: "avila-panoramica avila-panoramica avila-panoramica avila-panoramica avila2" "avila3 avila3 imagen-vertical avila5 avila5" "avila3 avila3 imagen-vertical avila6 avila6";
@@ -664,14 +670,68 @@ body {
   width: 100%;
   height: 500px; }
 
-/* Historia y Geografia */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  #div__geografia {
+    background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: 90% 50%; }
+  #div__humbolt {
+    background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: 70% 20%;
+    background-size: cover; }
+  #div__historia {
+    background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 3000px 100%; } }
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  #div__geografia {
+    background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: 90% 50%; }
+  #div__humbolt {
+    background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: 70% 20%;
+    background-size: cover; }
+  #div__historia {
+    background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 3000px 100%; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #div__geografia {
+    background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: 90% 50%; }
+  #div__humbolt {
+    background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: 70% 20%;
+    background-size: cover; }
+  #div__historia {
+    background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 3000px 100%; } }
+
+/* Fin Historia y Geografia */
 /* Contacto */
 .boxContacto {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas: "header header header header" "map map map map" "form2 form2 form3 form3"; }
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "header header header header" "inparque inparque inparque inparque" "map map map map" "form2 form2 form3 form3" "footer footer footer footer"; }
 
 .boxContacto .header {
   grid-area: header;
@@ -691,19 +751,25 @@ body {
 
 .boxContacto .formContacto3 {
   grid-area: form3;
-  color: #85603f;
+  color: white;
   /*     display: flex;
     justify-content: center;
     background-color: #9df3c4 */ }
 
+.boxContacto .container, .boxContacto .historia__container__imagenes {
+  grid-area: inparque; }
+
 .boxContacto .ubicacion {
   grid-area: map; }
+
+.boxContacto .footer {
+  grid-area: footer; }
 
 .mapaContacto {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: #85603f;
+  color: white;
   width: 80%; }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
@@ -711,7 +777,7 @@ body {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(5, auto);
     grid-template-areas: "header header header header" "map map map map" "form2 form2 form2 form2" "form3 form3 form3 form3"; } }
 
 /* Contacto */

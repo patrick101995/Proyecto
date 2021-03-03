@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-$main-color:#e3d18a;
+$main-color:#85603f; 
 $second-color: #80a342;
 $third-color:#9b963a;
-$fourth-color:#85603f;
+$fourth-color:#e3d18a;
 $color-hover-menu:#e3d18a;
-$color-texto-oscuro:#85603f;
+$color-texto-oscuro:white;
 $color-texto-claro:#e3d18a;
+$container-claro: white;
+$container-oscuro: #e3d18a;
 
 body {
     font-family: 'roboto', sans-serif;
@@ -70,6 +72,7 @@ body {
     @extend .parallax;
     background: #fff fixed no-repeat 50% 20%;
 }
+
 
 /*Baner */
 
@@ -338,7 +341,7 @@ body {
 .container{
     width: 100%;
     height: auto;
-    padding: 60px;
+    padding: 60px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -346,7 +349,6 @@ body {
         h3{
             font-size: 37px;
             font-weight: 400;
-            color: $color-texto-oscuro;
             text-align: center;
             padding-bottom: 30px;
             font-family:'paytone one', sans-serif
@@ -354,13 +356,11 @@ body {
 
         h4{
             font-size: 30px;
-            color: $color-texto-oscuro;
             text-align: center;
             padding-bottom: 25px;
         }
 
         p{
-            color: $color-texto-oscuro;
             text-align: center;
             font-size: 22px;
             line-height: 1,5;
@@ -390,7 +390,8 @@ body {
 }
 
 .actividades{
-    background-color:$main-color;
+    background-color:white;
+    color: $main-color;
 }
 
 .actividades__fila{
@@ -398,16 +399,28 @@ body {
     width: 100%;
     margin: 4% auto;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+
+
 }
 
 .actividades__fila__iconos{
-    color:$color-texto-oscuro;
+    color:$main-color;
     font-size: 14em;
-    padding: 3%;
-    justify-content: center;
+    padding: 2%;
+    justify-content:space-between;
     display: flex;
     text-decoration: none;
+    flex-direction: column;
+    text-align: center;
+    h6{
+        padding: 20px;
+        font-size: 29px;
+    }
+    &:hover{
+        color: white;
+        background-color: $main-color;
+    }
 }
 
 /* .grid-index{
@@ -762,7 +775,7 @@ body {
 
 .grid__galeria{
     display: grid;
-    grid-template-columns: repeat(5, 200px);
+    grid-template-columns: repeat(5, 3fr);
     grid-template-rows: repeat(3,200px);
     gap: 10px 10px;
     grid-template-areas: 
@@ -771,7 +784,8 @@ body {
         "avila3 avila3 imagen-vertical avila6 avila6";
     justify-content: center;
     padding: 50px;
-}
+        }
+
 
 .avila-panoramica {
     grid-area: avila-panoramica;
@@ -936,7 +950,85 @@ background-size: cover;
     height: 500px;
 }
 
-/* Historia y Geografia */
+
+@media only screen and (min-width:320px) and (max-width:600px){
+    #div__geografia{
+        background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
+        width: 100%;
+        height: 500px;
+        background-position: 90% 50%;
+    }
+
+    #div__humbolt{
+        background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
+        width: 100%;
+        height: 500px;
+        background-position: 70% 20%;
+        background-size: cover;
+    }
+
+
+    #div__historia{
+        background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
+        width: 100%;    
+        height: 500px;
+        background-size: 3000px 100%;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:768px)
+{
+    #div__geografia{
+        background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
+        width: 100%;
+        height: 500px;
+        background-position: 90% 50%;
+    }
+
+    #div__humbolt{
+        background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
+        width: 100%;
+        height: 500px;
+        background-position: 70% 20%;
+        background-size: cover;
+    }
+
+
+    #div__historia{
+        background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
+        width: 100%;    
+        height: 500px;
+        background-size: 3000px 100%;
+    } 
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    #div__geografia{
+        background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
+        width: 100%;
+        height: 500px;
+        background-position: 90% 50%;
+    }
+
+    #div__humbolt{
+        background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
+        width: 100%;
+        height: 500px;
+        background-position: 70% 20%;
+        background-size: cover;
+    }
+
+
+    #div__historia{
+        background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
+        width: 100%;    
+        height: 500px;
+        background-size: 3000px 100%;
+    } 
+
+}
+
+/* Fin Historia y Geografia */
 
 /* Contacto */
 
@@ -944,11 +1036,13 @@ background-size: cover;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(4 , 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(5, auto);
     grid-template-areas: 
                         "header header header header"
+                        "inparque inparque inparque inparque"
                         "map map map map"
                         "form2 form2 form3 form3"
+                        "footer footer footer footer"
                         ;
 }
 
@@ -980,8 +1074,16 @@ background-size: cover;
     background-color: #9df3c4 */
 }
 
+.boxContacto .container{
+    grid-area: inparque;
+}
+
 .boxContacto .ubicacion{
     grid-area: map;
+}
+
+.boxContacto .footer{
+    grid-area: footer;
 }
 
 .mapaContacto{
@@ -998,7 +1100,7 @@ background-size: cover;
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(4 , 1fr);
-        grid-template-rows: repeat(3, auto);
+        grid-template-rows: repeat(5, auto);
         grid-template-areas: 
                             "header header header header"
                             "map map map map"

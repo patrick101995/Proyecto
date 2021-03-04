@@ -783,7 +783,7 @@ body {
 
 .boxContacto .formContacto3 {
   grid-area: form3;
-  color: white;
+  color: #85603f;
   /*     display: flex;
     justify-content: center;
     background-color: #9df3c4 */ }
@@ -801,7 +801,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: white;
+  color: #85603f;
   width: 80%; }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {

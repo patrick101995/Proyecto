@@ -1125,7 +1125,7 @@ background-size: cover;
 
 .boxContacto .formContacto3{
     grid-area: form3;
-    color:$color-texto-oscuro;
+    color:$main-color;
 /*     display: flex;
     justify-content: center;
     background-color: #9df3c4 */
@@ -1147,7 +1147,7 @@ background-size: cover;
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: $color-texto-oscuro;
+    color: $main-color;
     width: 80%;
 }
 

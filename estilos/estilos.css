@@ -29,11 +29,36 @@ body {
     object-position: 40% 50%; }
 
 .footer {
-  color: white;
-  display: inline-flex;
-  flex-direction: column;
-  background-color: #e3d18a;
+  color: #c1c1c1;
+  background-color: #756c48;
   width: 100%; }
+  .footer .container-footer {
+    padding: 3% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+  .footer .redes-footer {
+    align-self: flex-start; }
+    .footer .redes-footer i {
+      font-size: 25px;
+      padding: 20px; }
+  .footer h6 {
+    border-bottom: 1px solid white;
+    font-size: 19px; }
+  .footer p {
+    font-size: 15px; }
+
+.logo-footer {
+  align-items: center; }
+  .logo-footer img {
+    height: 80px;
+    align-self: center;
+    transition: 0.5s; }
+    .logo-footer img:hover {
+      height: 83px;
+      transition: 0.5s; }
 
 .margin-0 {
   margin: 0px; }

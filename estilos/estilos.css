@@ -40,10 +40,16 @@ body {
     justify-content: space-around;
     align-items: center; }
   .footer .redes-footer {
-    align-self: flex-start; }
-    .footer .redes-footer i {
-      font-size: 25px;
-      padding: 20px; }
+    align-self: flex-start;
+    color: #c1c1c1; }
+    .footer .redes-footer a {
+      text-decoration: none;
+      color: #c1c1c1; }
+      .footer .redes-footer a:hover {
+        color: white; }
+      .footer .redes-footer a i {
+        font-size: 25px;
+        padding: 20px; }
   .footer h6 {
     border-bottom: 1px solid white;
     font-size: 19px; }
@@ -632,7 +638,7 @@ body {
     justify-content: center;
     padding: 50px; } }
 
-@media only screen and (min-width: 1650px) and (max-width: 5000px) {
+@media only screen and (min-width: 1950px) and (max-width: 5000px) {
   .grid__galeria {
     display: grid;
     grid-template-columns: repeat(5, 3fr);

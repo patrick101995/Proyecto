@@ -60,9 +60,17 @@ body {
 
         .redes-footer{
             align-self: flex-start;
-            i{
-            font-size: 25px;
-            padding:20px;
+            color: #c1c1c1;
+            a{
+                text-decoration: none;
+                color: #c1c1c1;
+                &:hover{
+                    color: white;
+                }
+                i{
+                    font-size: 25px;
+                    padding:20px;
+                    }
             }
         }
 
@@ -921,7 +929,7 @@ background-size: cover;
         }
 }
 
-@media only screen and (min-width:1650px) and (max-width:5000px){
+@media only screen and (min-width:1950px) and (max-width:5000px){
 
     .grid__galeria{
         display: grid;

@@ -654,11 +654,12 @@ body {
 /*Estilos de la galeria */
 /* Estilos del modal de la galeria */
 .modal-css {
-  visibility: hidden;
+  display: none;
   opacity: 0; }
 
 .modal-css:target {
   visibility: visible;
+  display: block;
   opacity: 1;
   transition: 0.5s;
   position: fixed;
@@ -667,7 +668,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  transition: 0.5s; }
+  transition: 0.5s;
+  z-index: 2000; }
 
 .modal-css h3 {
   color: #fff;
@@ -680,7 +682,8 @@ body {
   height: auto;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  top: 14vh; }
 
 .imagen a {
   color: #fff;
@@ -694,11 +697,12 @@ body {
   flex-shrink: 2; }
 
 .imagen img {
-  width: 500px;
-  height: 100%;
+  width: auto;
+  height: auto;
   max-width: 100%;
   border: 7px solid #fff;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  max-height: 80vh; }
 
 .cerrar {
   display: block;

@@ -91,13 +91,29 @@ body {
     }
 
     .logo-footer{
-        display: block !important;
         img{
             height: 30px !important;
             
         }
     }
 }
+
+@media only screen and (min-width:601px) and (max-width:768px)
+{
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .logo-footer{
+        img{
+            height: 50px !important;
+            
+        }
+    }
+}
+
 
 .logo-footer{
     align-items: center;
@@ -320,16 +336,19 @@ body {
             top:90px;
             right: 1950px;
             animation: pajaro_1 5s linear;
+            animation-delay: 1s;
         }
     .guacamaya-2{
             top: 150px;
             right: 1950px;
             animation: pajaro_2 5s linear;
+            animation-delay: 1s;
         }
     .guacamaya-3{
         top: 120px;
         right: 1900px;
         animation: pajaro_3 5s linear;
+        animation-delay: 1s;
     }
 
     @keyframes pajaro_1 {

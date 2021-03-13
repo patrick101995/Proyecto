@@ -541,41 +541,6 @@ body {
 
 /* Zonas */
 /*Estilos de la galeria */
-.galeria {
-  width: 90%;
-  background-color: whitesmoke;
-  list-style: none;
-  margin: auto;
-  padding: 20px;
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-
-.galeria img {
-  width: 200px;
-  height: 100px;
-  margin: auto;
-  display: block;
-  border-radius: 15px;
-  box-shadow: 5px 5px 0px #1fab89;
-  transition: 0.5s; }
-
-.galeria li {
-  margin: 5px; }
-
-.galeria img {
-  width: 200px;
-  height: 100px;
-  transition: 0.5s; }
-
-.galeria img:hover {
-  width: 220px;
-  height: 110px;
-  margin: auto;
-  border-radius: 13px;
-  transition: 0.5s; }
-
 .grid__galeria {
   display: grid;
   grid-template-columns: repeat(5, 3fr);
@@ -589,34 +554,72 @@ body {
   grid-area: avila-panoramica;
   background-image: url(https://patrick101995.github.io/proyecto/imagenes/Caribbean_Sea,_Avila_Mt,_Caracas_Panorama.jpg);
   background-position: 50% 40%;
-  background-size: cover; }
+  background-size: cover;
+  transition: 1s; }
+  .avila-panoramica:hover {
+    background-position: 20%;
+    transition: 1s ease;
+    background-size: cover;
+    border: black 1px solid; }
 
 .avila3 {
   grid-area: avila3;
   background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
   background-size: cover;
-  background-position: 60% 50%; }
+  background-position: 60% 50%;
+  transition: 1s ease; }
+  .avila3:hover {
+    background-position: 50% 60%;
+    transition: 1s ease;
+    background-size: cover;
+    border: black 1px solid; }
 
 .avila5 {
   grid-area: avila5;
   background-image: url(https://patrick101995.github.io/proyecto/imagenes/avila2.jpg);
-  background-size: cover; }
+  background-size: cover;
+  transition: 1s ease;
+  background-position: 50% 50%; }
+  .avila5:hover {
+    background-position: 50% 60%;
+    transition: 1s ease;
+    background-size: cover;
+    border: black 1px solid; }
 
 .imagen-vertical {
   grid-area: imagen-vertical;
   background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2.jpg);
   background-size: cover;
-  background-position: 90%; }
+  background-position: 90%;
+  transition: 1s ease; }
+  .imagen-vertical:hover {
+    background-position: 85%;
+    transition: 1s ease;
+    background-size: cover;
+    border: black 1px solid; }
 
 .avila2 {
   grid-area: avila2;
   background-image: url(https://patrick101995.github.io/proyecto/imagenes/avila5.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: 60%;
+  transition: 1s ease; }
+  .avila2:hover {
+    background-position: 20% 50%;
+    transition: 1s ease;
+    background-size: cover;
+    border: black 1px solid; }
 
 .avila6 {
   grid-area: avila6;
   background-image: url(https://patrick101995.github.io/proyecto/imagenes/galipan-alexander-sanchez.jpg);
-  background-size: cover; }
+  background-size: cover;
+  transition: 1s ease; }
+  .avila6:hover {
+    background-position: 50% 60%;
+    transition: 1s ease;
+    background-size: cover;
+    border: black 1px solid; }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   .grid__galeria {

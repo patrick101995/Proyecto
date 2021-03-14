@@ -61,8 +61,10 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; }
-  .logo-footer img {
-    height: 30px !important; } }
+  .logo-footer {
+    padding: 10px; }
+    .logo-footer img {
+      height: 30px !important; } }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   .container-footer {
@@ -332,7 +334,7 @@ body {
     padding-bottom: 25px; }
   .container p, .historia__container__imagenes p {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1,5;
     font-weight: 200; }
   .container img, .historia__container__imagenes img {
@@ -378,17 +380,6 @@ body {
     color: white;
     background-color: #85603f; }
 
-/* .grid-index{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: 
-                        "header header header header"
-                        "lasZonas lasZonas lasZonas lasZonas"
-                        "zonaA zonaA zonaB zonaB"
-                        "zonaC zonaC zonaD zonaD"
-    ;
-} */
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   .carousel-item {
     height: 400px;
@@ -482,7 +473,7 @@ body {
 
 #lasZonas {
   grid-area: lasZonas;
-  color: #85603f; }
+  color: #5f5635; }
 
 #zonaA {
   grid-area: zonaA; }
@@ -501,7 +492,7 @@ body {
   height: 100%;
   margin: auto;
   padding: 20px;
-  background-color: #85603f;
+  background-color: #5f5635;
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -511,14 +502,14 @@ body {
     height: 100%;
     max-width: 538px;
     max-height: 525px;
-    border: 3px solid white;
+    border: 3px solid #d8d6d6;
     padding: 0px;
     margin: 2px auto;
     align-self: center; }
   .container__containerZonas h4 {
-    color: white; }
+    color: #d8d6d6; }
   .container__containerZonas p {
-    color: white; }
+    color: #d8d6d6; }
 
 .container__banerZonas img {
   width: 100%;
@@ -832,7 +823,7 @@ body {
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: "header header header header" "inparque inparque inparque inparque" "map map map map" "form2 form2 form3 form3" "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "inparque inparque inparque inparque" "map map map map" "form3 form3 form3 form3" "footer footer footer footer"; }
 
 .boxContacto .header {
   grid-area: header;

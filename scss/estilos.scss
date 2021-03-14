@@ -91,6 +91,7 @@ body {
     }
 
     .logo-footer{
+        padding: 10px;
         img{
             height: 30px !important;
             
@@ -444,7 +445,7 @@ body {
 
         p{
             text-align: center;
-            font-size: 22px;
+            font-size: 20px;
             line-height: 1,5;
             font-weight: 200;
         }   
@@ -505,17 +506,6 @@ body {
     }
 }
 
-/* .grid-index{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: 
-                        "header header header header"
-                        "lasZonas lasZonas lasZonas lasZonas"
-                        "zonaA zonaA zonaB zonaB"
-                        "zonaC zonaC zonaD zonaD"
-    ;
-} */
 
 @media only screen and (min-width:320px) and (max-width:600px){
     
@@ -692,7 +682,7 @@ body {
 
 #lasZonas{
     grid-area: lasZonas;
-    color: $main-color;
+    color: #5f5635;
 }
 
 #zonaA{
@@ -716,7 +706,7 @@ body {
     height: 100%;
     margin: auto;
     padding: 20px;
-    background-color: $main-color;
+    background-color: #5f5635;
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -727,18 +717,18 @@ body {
         height: 100%;
         max-width: 538px;
         max-height: 525px;
-        border: 3px solid white;
+        border: 3px solid #d8d6d6;
         padding: 0px;
         margin: 2px auto;
         align-self: center;
     }
 
     h4{
-        color: white;
+        color: #d8d6d6;
     }
 
     p{
-        color: white;
+        color: #d8d6d6
     }
 
 }
@@ -1205,7 +1195,7 @@ body {
                         "header header header header"
                         "inparque inparque inparque inparque"
                         "map map map map"
-                        "form2 form2 form3 form3"
+                        "form3 form3 form3 form3"
                         "footer footer footer footer"
                         ;
 }

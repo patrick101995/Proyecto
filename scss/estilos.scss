@@ -140,8 +140,8 @@ body {
 .parallax {
     background: #fff fixed no-repeat 50% 50%;
     background-size: cover;
-    border-top: 2px #1fab89 solid;
-    border-bottom: 2px #1fab89 solid;
+    border-top: 2px #5f5635 solid;
+    border-bottom: 2px #5f5635 solid;
 }
 
 .parallax2{
@@ -429,6 +429,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    color: #5f5635;
         h3{
             font-size: 37px;
             font-weight: 400;
@@ -488,7 +489,7 @@ body {
 }
 
 .actividades__fila__iconos{
-    color:$main-color;
+    color:#5f5635;
     font-size: 14em;
     padding: 2%;
     justify-content:space-between;
@@ -502,7 +503,7 @@ body {
     }
     &:hover{
         color: white;
-        background-color: $main-color;
+        background-color: #5f5635;
     }
 }
 

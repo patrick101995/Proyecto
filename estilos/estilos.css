@@ -93,8 +93,8 @@ body {
 .parallax, .parallax2 {
   background: #fff fixed no-repeat 50% 50%;
   background-size: cover;
-  border-top: 2px #1fab89 solid;
-  border-bottom: 2px #1fab89 solid; }
+  border-top: 2px #5f5635 solid;
+  border-bottom: 2px #5f5635 solid; }
 
 .parallax2 {
   background: #fff fixed no-repeat 50% 20%; }
@@ -321,7 +321,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  color: #5f5635; }
   .container h3, .historia__container__imagenes h3 {
     font-size: 37px;
     font-weight: 400;
@@ -365,7 +366,7 @@ body {
   justify-content: space-between; }
 
 .actividades__fila__iconos {
-  color: #85603f;
+  color: #5f5635;
   font-size: 14em;
   padding: 2%;
   justify-content: space-between;
@@ -378,7 +379,7 @@ body {
     font-size: 29px; }
   .actividades__fila__iconos:hover {
     color: white;
-    background-color: #85603f; }
+    background-color: #5f5635; }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   .carousel-item {

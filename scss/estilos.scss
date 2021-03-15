@@ -179,12 +179,12 @@ body {
 
 /*Baner */
 
-.header__caja-baner{
+.header-caja-baner{
     position: relative;
     width: 100%;
 }
 
-.header__navegacion__baner{
+.header-navegacion-baner{
     width: 100%;
     height: 70vh;
     max-height: 70vh;
@@ -204,7 +204,7 @@ body {
     };
 }
 
-.header__caja-baner__titulo{
+.header-caja-baner-titulo{
     color:white;
     margin-bottom: 0;
     font-family: 'Paytone One' , sans-serif;
@@ -219,7 +219,7 @@ body {
 
 }
 
-.header__caja-baner__sub-titulo{
+.header-caja-baner-sub-titulo{
     color:white;
     margin-bottom: 0;
     font-family: 'Paytone One' , sans-serif;
@@ -245,7 +245,7 @@ body {
     }
 }
 
-.header__topper{
+.header-topper{
     position: relative;
     color: white;
     font-family: 'Paytone One' , sans-serif;
@@ -253,7 +253,7 @@ body {
     border-bottom: white solid 1px;
 }
 
-.header__caja-baner__barra{
+.header-caja-baner-barra{
     opacity: 50%;
     background-color: black;
     width: 100%;
@@ -268,7 +268,7 @@ body {
 /* Nav */
 
 
-.header__navegacion{
+.header-navegacion{
     width: 100%;
     background-color: $fourth-color;
     font-size: 10px;
@@ -303,7 +303,7 @@ body {
 
 }
 
-.header__navegacion__menu{
+.header-navegacion-menu{
     list-style: none;
     margin-bottom: 0px;
     display: flex;
@@ -326,7 +326,7 @@ body {
         }
 }
 
-.header__navegacion__menu__sub-Menu{
+.header-navegacion-menu-sub-Menu{
     display: none;
     position: absolute;
     z-index: 5;
@@ -343,7 +343,7 @@ body {
             }
     }
 
-.header__navegacion__menu li:hover .header__navegacion__menu__sub-Menu{
+.header-navegacion-menu li:hover .header-navegacion-menu-sub-Menu{
     display: flex;
     z-index: 5;
     flex-direction: column;
@@ -505,7 +505,7 @@ body {
     color: $main-color;
 }
 
-.actividades__fila{
+.actividades-fila{
     display: flex;
     width: 100%;
     margin: 4% auto;
@@ -515,7 +515,7 @@ body {
 
 }
 
-.actividades__fila__iconos{
+.actividades-fila-iconos{
     color:#5f5635;
     font-size: 14em;
     padding: 2%;
@@ -547,7 +547,7 @@ body {
             }
     }
 
-    .header__navegacion{
+    .header-navegacion{
 
         img{
             height: 2rem;
@@ -559,12 +559,12 @@ body {
         
     }
     
-    .header__caja-baner__titulo{
+    .header-caja-baner-titulo{
         font-size: 17px;
         width: 220px;
     }
 
-    .header__caja-baner__sub-titulo{
+    .header-caja-baner-sub-titulo{
         font-size: 15px;
     }
 
@@ -581,7 +581,7 @@ body {
         }
     }
 
-    .actividades__fila{
+    .actividades-fila{
         display: flex;
         width: 100%;
         margin: 4% auto;
@@ -598,7 +598,7 @@ body {
         height: 500px;
     }
 
-    .header__navegacion{
+    .header-navegacion{
 
         img{
             height: 2rem;
@@ -610,12 +610,12 @@ body {
         
     }
 
-    .header__caja-baner__titulo{
+    .header-caja-baner-titulo{
         font-size: 20px;
         width: 260px;
     }
 
-    .header__caja-baner__sub-titulo{
+    .header-caja-baner-sub-titulo{
         font-size: 17px;
     }
 
@@ -641,7 +641,7 @@ body {
         height: 450px;
     }
 
-    .header__navegacion{
+    .header-navegacion{
 
         img{
             height: 2rem;
@@ -653,12 +653,12 @@ body {
         
     }
 
-    .header__caja-baner__titulo{
+    .header-caja-baner-titulo{
         font-size: 23px;
         width: 290px;
     }
 
-    .header__caja-baner__sub-titulo{
+    .header-caja-baner-sub-titulo{
         font-size: 19px;
     }
 
@@ -675,7 +675,7 @@ body {
         }
     }
 
-    .actividades__fila{
+    .actividades-fila{
         display: flex;
         width: 100%;
         margin: 4% auto;
@@ -729,7 +729,7 @@ body {
     grid-area: zonaD;
 }
 
-.container__containerZonas{
+.container-containerZonas{
     width: 100%;
     height: 100%;
     margin: auto;
@@ -761,7 +761,7 @@ body {
 
 }
 
-.container__banerZonas {
+.container-banerZonas {
     img{
     width: 100%;
     height: auto;
@@ -801,7 +801,7 @@ body {
         ;
     }
 
-    .container__banerZonas {
+    .container-banerZonas {
         img{
         width: 100%;
         height: auto;
@@ -826,7 +826,7 @@ body {
         grid-gap: 5px;
     }
 
-    .header__navegacion__menu{
+    .header-navegacion-menu{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -848,7 +848,7 @@ body {
 /* Zonas */
 
 /*Estilos de la galeria */
-.grid__galeria{
+.grid-galeria{
     display: grid;
     grid-template-columns: repeat(5, 3fr);
     grid-template-rows: repeat(3,200px);
@@ -948,7 +948,7 @@ body {
 
 @media only screen and (min-width:320px) and (max-width:600px){
     
-    .grid__galeria{
+    .grid-galeria{
         display: grid;
         grid-template-columns: repeat(1, 3fr);
         grid-template-rows: repeat(6,200px);
@@ -966,7 +966,7 @@ body {
 }
 
 @media only screen and (min-width:601px) and (max-width:768px){
-    .grid__galeria{
+    .grid-galeria{
         display: grid;
         grid-template-columns: repeat(1, 3fr);
         grid-template-rows: repeat(6,200px);
@@ -985,7 +985,7 @@ body {
 
 @media only screen and (min-width:1950px) and (max-width:5000px){
 
-    .grid__galeria{
+    .grid-galeria{
         display: grid;
         grid-template-columns: repeat(5, 3fr);
         grid-template-rows: repeat(3,200px);
@@ -1090,13 +1090,13 @@ body {
 
 
 
-#div__historia{
+#div-historia{
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
     width: 100%;    
     height: 500px;
 }
 
-#div__geografia{
+#div-geografia{
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
     width: 100%;
     height: 500px;
@@ -1104,7 +1104,7 @@ body {
 
 
 
-.historia__container__imagenes{
+.historia-container-imagenes{
     @extend .container;
     padding: 0px;
     margin: 0px;
@@ -1112,20 +1112,20 @@ body {
     height: 500px;
 }
 
-@mixin container__imagenes__imagenes ($width, $height){
+@mixin container-imagenes-imagenes ($width, $height){
     width: $width;
     height: $width;
 }
 
-.hitoria__container__imagenes__imagenes{
-    @include container__imagenes__imagenes(100%, 500px);
+.hitoria-container-imagenes-imagenes{
+    @include container-imagenes-imagenes(100%, 500px);
 }
 
-.geografia__container__imagenes__imagenes {
-    @include container__imagenes__imagenes(100%, 500px);
+.geografia-container-imagenes-imagenes {
+    @include container-imagenes-imagenes(100%, 500px);
 }
 
-#div__humbolt{
+#div-humbolt{
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
     width: 100%;
     height: 500px;
@@ -1133,14 +1133,14 @@ body {
 
 
 @media only screen and (min-width:320px) and (max-width:600px){
-    #div__geografia{
+    #div-geografia{
         background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
         width: 100%;
         height: 500px;
         background-position: 90% 50%;
     }
 
-    #div__humbolt{
+    #div-humbolt{
         background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
         width: 100%;
         height: 500px;
@@ -1149,7 +1149,7 @@ body {
     }
 
 
-    #div__historia{
+    #div-historia{
         background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
         width: 100%;    
         height: 500px;
@@ -1159,14 +1159,14 @@ body {
 
 @media only screen and (min-width:601px) and (max-width:768px)
 {
-    #div__geografia{
+    #div-geografia{
         background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
         width: 100%;
         height: 500px;
         background-position: 90% 50%;
     }
 
-    #div__humbolt{
+    #div-humbolt{
         background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
         width: 100%;
         height: 500px;
@@ -1175,7 +1175,7 @@ body {
     }
 
 
-    #div__historia{
+    #div-historia{
         background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
         width: 100%;    
         height: 500px;
@@ -1184,14 +1184,14 @@ body {
 }
 
 @media only screen and (min-width:769px) and (max-width:1024px){
-    #div__geografia{
+    #div-geografia{
         background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
         width: 100%;
         height: 500px;
         background-position: 90% 50%;
     }
 
-    #div__humbolt{
+    #div-humbolt{
         background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
         width: 100%;
         height: 500px;
@@ -1200,7 +1200,7 @@ body {
     }
 
 
-    #div__historia{
+    #div-historia{
         background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
         width: 100%;    
         height: 500px;

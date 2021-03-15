@@ -12,7 +12,7 @@ body {
   font-weight: 500;
   padding-top: 50px; }
 
-.container, .historia__container__imagenes {
+.container, .historia-container-imagenes {
   width: 100%;
   height: auto;
   padding: 0px;
@@ -115,11 +115,11 @@ body {
   background: #fff fixed no-repeat 50% 20%; }
 
 /*Baner */
-.header__caja-baner {
+.header-caja-baner {
   position: relative;
   width: 100%; }
 
-.header__navegacion__baner {
+.header-navegacion-baner {
   width: 100%;
   height: 70vh;
   max-height: 70vh;
@@ -135,7 +135,7 @@ body {
   .carousel-item img {
     height: 100%; }
 
-.header__caja-baner__titulo {
+.header-caja-baner-titulo {
   color: white;
   margin-bottom: 0;
   font-family: 'Paytone One' , sans-serif;
@@ -148,7 +148,7 @@ body {
   z-index: 2;
   animation: fromLeft 2s; }
 
-.header__caja-baner__sub-titulo {
+.header-caja-baner-sub-titulo {
   color: white;
   margin-bottom: 0;
   font-family: 'Paytone One' , sans-serif;
@@ -173,14 +173,14 @@ body {
   100% {
     left: 50%; } }
 
-.header__topper {
+.header-topper {
   position: relative;
   color: white;
   font-family: 'Paytone One' , sans-serif;
   font-weight: 300;
   border-bottom: white solid 1px; }
 
-.header__caja-baner__barra {
+.header-caja-baner-barra {
   opacity: 50%;
   background-color: black;
   width: 100%;
@@ -191,19 +191,19 @@ body {
 
 /*Baner */
 /* Nav */
-.header__navegacion {
+.header-navegacion {
   width: 100%;
   background-color: #e3d18a;
   font-size: 10px;
   font-weight: 200;
   font-family: 'paytone one', sans-serif; }
-  .header__navegacion img {
+  .header-navegacion img {
     height: 40px;
     margin-top: 1px;
     top: 0;
     animation: fade 2s;
     transition: 0.5s; }
-    .header__navegacion img:hover {
+    .header-navegacion img:hover {
       height: 42px;
       transition: 0.5s; }
 
@@ -217,39 +217,39 @@ body {
   100% {
     opacity: 100%; } }
 
-.header__navegacion__menu {
+.header-navegacion-menu {
   list-style: none;
   margin-bottom: 0px;
   display: flex;
   justify-content: flex-end; }
-  .header__navegacion__menu li {
+  .header-navegacion-menu li {
     display: inline-block;
     position: relative; }
-    .header__navegacion__menu li a {
+    .header-navegacion-menu li a {
       display: block;
       padding: 15px 22px;
       color: white;
       text-decoration: none;
       font-size: 20px; }
-      .header__navegacion__menu li a:hover {
+      .header-navegacion-menu li a:hover {
         background-color: #85603f;
         color: white; }
 
-.header__navegacion__menu__sub-Menu {
+.header-navegacion-menu-sub-Menu {
   display: none;
   position: absolute;
   z-index: 5;
   padding: 0; }
-  .header__navegacion__menu__sub-Menu li {
+  .header-navegacion-menu-sub-Menu li {
     background-color: #e3d18a; }
-    .header__navegacion__menu__sub-Menu li a {
+    .header-navegacion-menu-sub-Menu li a {
       display: flex;
       text-decoration: none;
       padding: 15px 23px;
       font-size: 18px;
       height: auto; }
 
-.header__navegacion__menu li:hover .header__navegacion__menu__sub-Menu {
+.header-navegacion-menu li:hover .header-navegacion-menu-sub-Menu {
   display: flex;
   z-index: 5;
   flex-direction: column; }
@@ -328,7 +328,7 @@ body {
   background-color: white;
   color: #85603f; }
 
-.container, .historia__container__imagenes {
+.container, .historia-container-imagenes {
   width: 100%;
   height: auto;
   padding: 60px 30px;
@@ -338,22 +338,22 @@ body {
   align-items: center;
   margin-top: 10px;
   color: #5f5635; }
-  .container h3, .historia__container__imagenes h3 {
+  .container h3, .historia-container-imagenes h3 {
     font-size: 37px;
     font-weight: 400;
     text-align: center;
     padding-bottom: 30px;
     font-family: 'paytone one', sans-serif; }
-  .container h4, .historia__container__imagenes h4 {
+  .container h4, .historia-container-imagenes h4 {
     font-size: 30px;
     text-align: center;
     padding-bottom: 25px; }
-  .container p, .historia__container__imagenes p {
+  .container p, .historia-container-imagenes p {
     text-align: center;
     font-size: 20px;
     line-height: 1,5;
     font-weight: 200; }
-  .container img, .historia__container__imagenes img {
+  .container img, .historia-container-imagenes img {
     display: block;
     margin: auto;
     padding: 10px;
@@ -373,14 +373,14 @@ body {
   background-color: white;
   color: #85603f; }
 
-.actividades__fila {
+.actividades-fila {
   display: flex;
   width: 100%;
   margin: 4% auto;
   flex-wrap: wrap;
   justify-content: space-between; }
 
-.actividades__fila__iconos {
+.actividades-fila-iconos {
   color: #5f5635;
   font-size: 14em;
   padding: 2%;
@@ -389,10 +389,10 @@ body {
   text-decoration: none;
   flex-direction: column;
   text-align: center; }
-  .actividades__fila__iconos h6 {
+  .actividades-fila-iconos h6 {
     padding: 20px;
     font-size: 29px; }
-  .actividades__fila__iconos:hover {
+  .actividades-fila-iconos:hover {
     color: white;
     background-color: #5f5635; }
 
@@ -403,24 +403,24 @@ body {
     .carousel-item img {
       height: 100%;
       object-position: 40% 62%; }
-  .header__navegacion img {
+  .header-navegacion img {
     height: 2rem; }
-    .header__navegacion img:hover {
+    .header-navegacion img:hover {
       height: 2.2rem;
       transition: 0.5s; }
-  .header__caja-baner__titulo {
+  .header-caja-baner-titulo {
     font-size: 17px;
     width: 220px; }
-  .header__caja-baner__sub-titulo {
+  .header-caja-baner-sub-titulo {
     font-size: 15px; }
-  .container, .historia__container__imagenes {
+  .container, .historia-container-imagenes {
     padding: 30px; }
-    .container h3, .historia__container__imagenes h3 {
+    .container h3, .historia-container-imagenes h3 {
       font-size: 27px; }
-    .container p, .historia__container__imagenes p {
+    .container p, .historia-container-imagenes p {
       font-size: 20px;
       font-weight: 0; }
-  .actividades__fila {
+  .actividades-fila {
     display: flex;
     width: 100%;
     margin: 4% auto;
@@ -430,45 +430,45 @@ body {
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   .carousel-item {
     height: 500px; }
-  .header__navegacion img {
+  .header-navegacion img {
     height: 2rem; }
-    .header__navegacion img:hover {
+    .header-navegacion img:hover {
       height: 2.2rem;
       transition: 0.5s; }
-  .header__caja-baner__titulo {
+  .header-caja-baner-titulo {
     font-size: 20px;
     width: 260px; }
-  .header__caja-baner__sub-titulo {
+  .header-caja-baner-sub-titulo {
     font-size: 17px; }
-  .container, .historia__container__imagenes {
+  .container, .historia-container-imagenes {
     padding: 30px; }
-    .container h3, .historia__container__imagenes h3 {
+    .container h3, .historia-container-imagenes h3 {
       font-size: 27px; }
-    .container p, .historia__container__imagenes p {
+    .container p, .historia-container-imagenes p {
       font-size: 20px;
       font-weight: 0; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .carousel-item {
     height: 450px; }
-  .header__navegacion img {
+  .header-navegacion img {
     height: 2rem; }
-    .header__navegacion img:hover {
+    .header-navegacion img:hover {
       height: 2.2rem;
       transition: 0.5s; }
-  .header__caja-baner__titulo {
+  .header-caja-baner-titulo {
     font-size: 23px;
     width: 290px; }
-  .header__caja-baner__sub-titulo {
+  .header-caja-baner-sub-titulo {
     font-size: 19px; }
-  .container, .historia__container__imagenes {
+  .container, .historia-container-imagenes {
     padding: 30px; }
-    .container h3, .historia__container__imagenes h3 {
+    .container h3, .historia-container-imagenes h3 {
       font-size: 27px; }
-    .container p, .historia__container__imagenes p {
+    .container p, .historia-container-imagenes p {
       font-size: 20px;
       font-weight: 0; }
-  .actividades__fila {
+  .actividades-fila {
     display: flex;
     width: 100%;
     margin: 4% auto;
@@ -503,7 +503,7 @@ body {
 #zonaD {
   grid-area: zonaD; }
 
-.container__containerZonas {
+.container-containerZonas {
   width: 100%;
   height: 100%;
   margin: auto;
@@ -513,7 +513,7 @@ body {
   display: flex;
   flex-direction: column;
   border: white solid 0.5px; }
-  .container__containerZonas img {
+  .container-containerZonas img {
     width: 100%;
     height: 100%;
     max-width: 538px;
@@ -522,12 +522,12 @@ body {
     padding: 0px;
     margin: 2px auto;
     align-self: center; }
-  .container__containerZonas h4 {
+  .container-containerZonas h4 {
     color: #d8d6d6; }
-  .container__containerZonas p {
+  .container-containerZonas p {
     color: #d8d6d6; }
 
-.container__banerZonas img {
+.container-banerZonas img {
   width: 100%;
   height: auto; }
 
@@ -544,7 +544,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, auto);
     grid-template-areas: "header" "lasZonas" "zonaA" "zonaB" "zonaC" "zonaD"; }
-  .container__banerZonas img {
+  .container-banerZonas img {
     width: 100%;
     height: auto; } }
 
@@ -555,7 +555,7 @@ body {
     grid-template-rows: repeat(6, auto);
     grid-template-areas: "header" "lasZonas" "zonaA" "zonaB" "zonaC" "zonaD";
     grid-gap: 5px; }
-  .header__navegacion__menu {
+  .header-navegacion-menu {
     display: flex;
     flex-direction: column;
     align-items: center; }
@@ -567,7 +567,7 @@ body {
 
 /* Zonas */
 /*Estilos de la galeria */
-.grid__galeria {
+.grid-galeria {
   display: grid;
   grid-template-columns: repeat(5, 3fr);
   grid-template-rows: repeat(3, 200px);
@@ -648,7 +648,7 @@ body {
     border: black 1px solid; }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
-  .grid__galeria {
+  .grid-galeria {
     display: grid;
     grid-template-columns: repeat(1, 3fr);
     grid-template-rows: repeat(6, 200px);
@@ -658,7 +658,7 @@ body {
     padding: 50px; } }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
-  .grid__galeria {
+  .grid-galeria {
     display: grid;
     grid-template-columns: repeat(1, 3fr);
     grid-template-rows: repeat(6, 200px);
@@ -668,7 +668,7 @@ body {
     padding: 50px; } }
 
 @media only screen and (min-width: 1950px) and (max-width: 5000px) {
-  .grid__galeria {
+  .grid-galeria {
     display: grid;
     grid-template-columns: repeat(5, 3fr);
     grid-template-rows: repeat(3, 200px);
@@ -749,84 +749,84 @@ body {
 
 /* Estilos del modal de la galeria */
 /* Historia y Geografia */
-#div__historia {
+#div-historia {
   background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
   width: 100%;
   height: 500px; }
 
-#div__geografia {
+#div-geografia {
   background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
   width: 100%;
   height: 500px; }
 
-.historia__container__imagenes {
+.historia-container-imagenes {
   padding: 0px;
   margin: 0px;
   width: 100%;
   height: 500px; }
 
-.hitoria__container__imagenes__imagenes {
+.hitoria-container-imagenes-imagenes {
   width: 100%;
   height: 100%; }
 
-.geografia__container__imagenes__imagenes {
+.geografia-container-imagenes-imagenes {
   width: 100%;
   height: 100%; }
 
-#div__humbolt {
+#div-humbolt {
   background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
   width: 100%;
   height: 500px; }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
-  #div__geografia {
+  #div-geografia {
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
     width: 100%;
     height: 500px;
     background-position: 90% 50%; }
-  #div__humbolt {
+  #div-humbolt {
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
     width: 100%;
     height: 500px;
     background-position: 70% 20%;
     background-size: cover; }
-  #div__historia {
+  #div-historia {
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
     width: 100%;
     height: 500px;
     background-size: 3000px 100%; } }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
-  #div__geografia {
+  #div-geografia {
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
     width: 100%;
     height: 500px;
     background-position: 90% 50%; }
-  #div__humbolt {
+  #div-humbolt {
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
     width: 100%;
     height: 500px;
     background-position: 70% 20%;
     background-size: cover; }
-  #div__historia {
+  #div-historia {
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
     width: 100%;
     height: 500px;
     background-size: 3000px 100%; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  #div__geografia {
+  #div-geografia {
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila2_photos_v2_x2_colored_toned.jpg);
     width: 100%;
     height: 500px;
     background-position: 90% 50%; }
-  #div__humbolt {
+  #div-humbolt {
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/Hotel_humnolt.jpg);
     width: 100%;
     height: 500px;
     background-position: 70% 20%;
     background-size: cover; }
-  #div__historia {
+  #div-historia {
     background-image: url(https://patrick101995.github.io/proyecto/imagenes/lets_enhance/historia_avila.jpg);
     width: 100%;
     height: 500px;
@@ -864,7 +864,7 @@ body {
     justify-content: center;
     background-color: #9df3c4 */ }
 
-.boxContacto .container, .boxContacto .historia__container__imagenes {
+.boxContacto .container, .boxContacto .historia-container-imagenes {
   grid-area: inparque; }
 
 .boxContacto .ubicacion {
